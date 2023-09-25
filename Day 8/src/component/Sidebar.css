@@ -1,0 +1,54 @@
+.App {
+    display: flex;
+    font-family: "IBM Plex Sana Thai Looped", sans-serif;
+    color: rgb(0, 0, 0);
+   background-image: url("https://migrantlife.bg/sites/default/files/styles/mt_large/public/posts/%D0%9D%D0%B5%D0%BE%D0%B7%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%B5%D0%BD%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD.jpg?itok=HVnXT8WR");
+    text-shadow: 1px 0px 2px #8dc4f0;
+    background-size: cover;
+  }
+ 
+  .sidebar_container {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left:0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .sidebar{
+    display: flex;
+    width: 14rem;
+    height: 90%;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.5px);
+    border-radius:10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  .lines_icon{
+    display: flex;
+    align-self: flex-end;
+    border-radius: 5px;
+  }
+  
+  .profile{
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  }
+  
+  .profile>img{
+    width: 100%;
+  border-radius: 50%;
+  }
+  
+
+  
+  
